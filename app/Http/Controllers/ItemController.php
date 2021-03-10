@@ -11,10 +11,9 @@ class ItemController extends Controller
 		Session::put('aktif',6);
 
 		$hola = [
-			'title'=>'Pengenalan About',
-			'message'=>'Halamn pengenalan kelompok 1 , Abdulloh Aqil - Zulfikar rahhman'
+			'title'=>'Daftar Barang'
 		];
-		$data = Item::paginate(10)->get();
+		$data = Item::paginate(5);
 		return view('item',$hola,compact('data'));
 	}
 }

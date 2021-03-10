@@ -11,10 +11,9 @@ class SupplierController extends Controller
 		Session::put('aktif',7);
 
 		$hola = [
-			'title'=>'Pengenalan About',
-			'message'=>'Halamn pengenalan kelompok 1 , Abdulloh Aqil - Zulfikar rahhman'
+			'title'=>'Daftar Supplier'
 		];
-		$data = Supplier::paginate(10)->get();
+		$data = Supplier::paginate(5);
 		return view('supplier',$hola,compact('data'));
 	}
 }

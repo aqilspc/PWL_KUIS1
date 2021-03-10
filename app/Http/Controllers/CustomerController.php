@@ -11,10 +11,9 @@ class CustomerController extends Controller
 		Session::put('aktif',8);
 
 		$hola = [
-			'title'=>'Pengenalan About',
-			'message'=>'Halamn pengenalan kelompok 1 , Abdulloh Aqil - Zulfikar rahhman'
+			'title'=>'Daftar Pelanggan'
 		];
-		$data = Customer::paginate(10)->get();
+		$data = Customer::paginate(5);
 		return view('customer',$hola,compact('data'));
 	}
 }

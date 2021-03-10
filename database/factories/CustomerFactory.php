@@ -21,10 +21,11 @@ class CustomerFactory extends Factory
      */
     public function definition()
     {
+        $no = rand();
         return [
                 'name'=>'Firman Pratama Dewantara'
                 ,'phone'=>'081880015123'
-                ,'address'=>'Jalan raya karang ploso wetan no 90 gang 10 bangil pasuruan jawatimur'
+                ,'address'=>'Jalan raya karang ploso wetan no '.$no.' gang 10 bangil pasuruan jawatimur'
                 ,'created_at' => Carbon::now()->toDateTimeString()
         ];
     }

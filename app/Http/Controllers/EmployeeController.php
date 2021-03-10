@@ -11,10 +11,9 @@ class EmployeeController extends Controller
 		Session::put('aktif',5);
 
 		$hola = [
-			'title'=>'Pengenalan About',
-			'message'=>'Halamn pengenalan kelompok 1 , Abdulloh Aqil - Zulfikar rahhman'
+			'title'=>'Daftar Pegawai'
 		];
-		$data = Employee::paginate(10)->get();
+		$data = Employee::paginate(5);
 		return view('employee',$hola,compact('data'));
 	}
 }

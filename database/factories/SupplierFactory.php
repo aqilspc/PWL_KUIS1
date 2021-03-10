@@ -21,9 +21,10 @@ class SupplierFactory extends Factory
      */
     public function definition()
     {
+         $no = rand();
         return [
                 'name'=>'CV.Bukalapak ID',
-                'phone'=>'089909876123',
+                'phone'=>$no,
                 'address'=>'Jalan raya jakarta barat gang sono no 8',
                 'created_at' => Carbon::now()->toDateTimeString()
         ];

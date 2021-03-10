@@ -21,10 +21,11 @@ class ItemFactory extends Factory
      */
     public function definition()
     {
+         $no = rand();
         return [
             'name'=>'Mouse',
             'supplier_id'=>'2',
-            'price'=>'10000',
+            'price'=>$no.'.00',
             'type'=>'Electronics',
             'created_at' => Carbon::now()->toDateTimeString()
         ];

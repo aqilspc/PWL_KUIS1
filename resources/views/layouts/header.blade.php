@@ -32,7 +32,7 @@
                                 <li class="nav-item {{ ( $home == 1) ? 'active' : '' }} " >
                                     <a href="{{url('/')}}" class="nav-link">Home</a>
                                 </li>
-                                <li class="nav-item {{ ( $home == 4) ? 'active' : '' }}">
+<!--                                 <li class="nav-item {{ ( $home == 4) ? 'active' : '' }}">
                                     <a href="{{url('about')}}" class="nav-link">About</a>
                                 </li>
                                 <li class="nav-item {{ ( $home == 3) ? 'active' : '' }}">
@@ -40,6 +40,18 @@
                                 </li>
                                 <li class="nav-item {{ ( $home == 2) ? 'active' : '' }}">
                                     <a href="{{url('contact')}}" class="nav-link">Contact</a>
+                                </li> -->
+                                 <li class="nav-item {{ ( $home == 8) ? 'active' : '' }}">
+                                    <a href="{{url('customer')}}" class="nav-link">Pelanggan</a>
+                                </li>
+                                 <li class="nav-item {{ ( $home == 7) ? 'active' : '' }}">
+                                    <a href="{{url('supplier')}}" class="nav-link">Supplier</a>
+                                </li>
+                                 <li class="nav-item {{ ( $home == 5) ? 'active' : '' }}">
+                                    <a href="{{url('employee')}}" class="nav-link">Pegawai</a>
+                                </li>
+                                 <li class="nav-item {{ ( $home == 6) ? 'active' : '' }}">
+                                    <a href="{{url('item')}}" class="nav-link">Barang</a>
                                 </li>
                             </ul>                        
                         </div>

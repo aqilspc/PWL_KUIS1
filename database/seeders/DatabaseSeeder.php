@@ -47,15 +47,15 @@ class DatabaseSeeder extends Seeder
 //         ]);
 //     	Contact::factory(100)->create();
         //new Table
-        // $this->call([
-        //     employee_seed::class
-        // ]);
-        // Employee::factory(100)->create();
-        // //new Table
-        // $this->call([
-        //     item_seed::class
-        // ]);
-        // item::factory(100)->create();
+        $this->call([
+            employee_seed::class
+        ]);
+        Employee::factory(100)->create();
+        //new Table
+        $this->call([
+            item_seed::class
+        ]);
+        item::factory(100)->create();
         $this->call([
             SupplierSeed::class
         ]);

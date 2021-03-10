@@ -22,10 +22,11 @@ class EmployeeFactory extends Factory
      */
     public function definition()
     {
+         $no = rand();
         return [
             'name'=>'Zulfikar',
             'address'=>'Magersari',
-            'phone'=>'08123102949',
+            'phone'=>$no,
             'role'=>'Developer' ,
             'created_at' => Carbon::now()->toDateTimeString()
             ];
