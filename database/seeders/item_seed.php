@@ -15,9 +15,10 @@ class item_seed extends Seeder
     public function run()
     {
         DB::table('items')->insert([
-            'Name'=>'Remote',
-            'Price'=>'10000',
-            'Type'=>'Electronics',
+            'name'=>'Remote',
+            'supplier_id'=>'1',
+            'price'=>'10000',
+            'type'=>'Electronics',
             'created_at' => Carbon::now()->toDateTimeString()
         ]);
     }

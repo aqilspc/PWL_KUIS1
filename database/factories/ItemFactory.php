@@ -22,9 +22,10 @@ class ItemFactory extends Factory
     public function definition()
     {
         return [
-            'Name'=>'Remote',
-            'Price'=>'10000',
-            'Type'=>'Electronics',
+            'name'=>'Mouse',
+            'supplier_id'=>'2',
+            'price'=>'10000',
+            'type'=>'Electronics',
             'created_at' => Carbon::now()->toDateTimeString()
         ];
     }

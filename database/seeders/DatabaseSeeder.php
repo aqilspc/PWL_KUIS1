@@ -7,7 +7,8 @@ use App\Models\Contact;
 use Illuminate\Database\Seeder;
 use App\Models\Employee;
 use App\Models\Item;
-
+use App\Models\Supplier;
+use App\Models\Customer;
 class DatabaseSeeder extends Seeder
 {
     /**
@@ -46,15 +47,24 @@ class DatabaseSeeder extends Seeder
 //         ]);
 //     	Contact::factory(100)->create();
         //new Table
+        // $this->call([
+        //     employee_seed::class
+        // ]);
+        // Employee::factory(100)->create();
+        // //new Table
+        // $this->call([
+        //     item_seed::class
+        // ]);
+        // item::factory(100)->create();
         $this->call([
-            employee_seed::class
+            SupplierSeed::class
         ]);
-        Employee::factory(100)->create();
+        Supplier::factory(100)->create();
         //new Table
         $this->call([
-            item_seed::class
+            CustomerSeed::class
         ]);
-        item::factory(100)->create();
+        Customer::factory(100)->create();
 
     }
 }

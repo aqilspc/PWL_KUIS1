@@ -15,10 +15,10 @@ class employee_seed extends Seeder
     public function run()
     {
         DB::table('employees') ->insert([
-        'Name'=>'Zulfikar',
-        'Address'=>'Magersari',
-        'Phone'=>'08123102949',
-        'Role'=>'Manager' ,
+        'name'=>'Zulfikar',
+        'address'=>'Magersari',
+        'phone'=>'08123102949',
+        'role'=>'Manager' ,
         'created_at' => Carbon::now()->toDateTimeString()
         ]) ; 
     }

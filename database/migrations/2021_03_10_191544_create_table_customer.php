@@ -4,7 +4,7 @@ use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
-class CreateTablePegawai extends Migration
+class CreateTableCustomer extends Migration
 {
     /**
      * Run the migrations.
@@ -13,12 +13,11 @@ class CreateTablePegawai extends Migration
      */
     public function up()
     {
-        Schema::create('employees', function (Blueprint $table) {
+        Schema::create('customers', function (Blueprint $table) {
             $table->id();
-            $table->String('name');
+            $table->string('name');
+            $table->string('phone');
             $table->text('address');
-            $table->String('phone');
-            $table->String('role');
             $table->timestamps();
         });
     }
@@ -30,6 +29,6 @@ class CreateTablePegawai extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('employees');
+        Schema::dropIfExists('customers');
     }
 }

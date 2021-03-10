@@ -15,9 +15,10 @@ class CreateTableBarang extends Migration
     {
         Schema::create('items', function (Blueprint $table) {
             $table->id();
-            $table->String('Name');
-            $table->String('Price');
-            $table->String('Type');
+            $table->integer('supplier_id');
+            $table->String('name');
+            $table->String('price');
+            $table->String('type');
             $table->timestamps();
         });
     }

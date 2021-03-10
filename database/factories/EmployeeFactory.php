@@ -23,10 +23,10 @@ class EmployeeFactory extends Factory
     public function definition()
     {
         return [
-            'Name'=>'Zulfikar',
-            'Address'=>'Magersari',
-            'Phone'=>'08123102949',
-            'Role'=>'Manager' ,
+            'name'=>'Zulfikar',
+            'address'=>'Magersari',
+            'phone'=>'08123102949',
+            'role'=>'Developer' ,
             'created_at' => Carbon::now()->toDateTimeString()
             ];
     }
