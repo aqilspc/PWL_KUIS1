@@ -19,6 +19,7 @@ class item_seed extends Seeder
             'supplier_id'=>'1',
             'price'=>'10000',
             'type'=>'Electronics',
+            'stock'=>'10',
             'created_at' => Carbon::now()->toDateTimeString()
         ]);
     }

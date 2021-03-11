@@ -50,6 +50,7 @@
                     <th>Name</th>
                     <th>Price</th>
                     <th>Type</th>
+                    <th>stock</th>
                     <th>Supplier</th>
                   </tr>
                   @php $no =1 @endphp
@@ -59,6 +60,7 @@
                     <td>{{$d->name}}</td>
                     <td>{{$d->price}}</td>
                     <td>{{$d->type}}</td>
+                    <td>{{$d->stock}}</td>
                     <td>{{$d->supplier->name}}</td>
                   </tr>
                   @php $no++ @endphp

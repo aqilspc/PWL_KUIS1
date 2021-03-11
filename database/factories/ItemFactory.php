@@ -27,6 +27,7 @@ class ItemFactory extends Factory
             'supplier_id'=>'2',
             'price'=>$no.'.00',
             'type'=>'Electronics',
+            'stock'=>'10',
             'created_at' => Carbon::now()->toDateTimeString()
         ];
     }

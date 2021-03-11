@@ -19,6 +19,7 @@ class CreateTableBarang extends Migration
             $table->String('name');
             $table->String('price');
             $table->String('type');
+            $table->String('stock');
             $table->timestamps();
         });
     }
