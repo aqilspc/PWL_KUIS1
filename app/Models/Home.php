@@ -9,9 +9,9 @@ class Home extends Model
 {
     use HasFactory;
     protected $table = 'tb_home';
-    public static function index()
+    public function index()
     {
-        $data = Home::where('id',5)->first();
+        $data = Home::first();
         return $data;
     }
 }

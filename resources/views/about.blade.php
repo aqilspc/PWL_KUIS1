@@ -1,6 +1,6 @@
 @extends('layouts.header')
 @section('content')
- <div class="tm-about-img-container" style="background-image: url('{{url('assets/img/tm-about-img1.jpg')}}');">
+ <div class="tm-about-img-container" style="background-image: url('https://objectstorage.ap-sydney-1.oraclecloud.com/p/5Il4d0hojOyP71aKV9Ybg7idpTId4h8YBLUI-1IHpUDcRrCk2wRsz4SYaqHhLP3a/n/sdkn9cttvr6z/b/Annisa/o/img/tm-about-img1.jpg');">
             
         </div>
         <section class="tm-section">
