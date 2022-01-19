@@ -9,8 +9,8 @@ class BlogController extends Controller
 	{
 		Session::put('aktif',3);
 		$hola = [
-			'title'=>'Pengenalan Blog',
-			'message'=>'Halamn pengenalan kelompok 1 , Abdulloh Aqil - Zulfikar rahhman'
+			'title'=>'Pengenalan Home',
+			'message'=>'HomePage'
 		];
 		return view('blog',$hola);
 	}

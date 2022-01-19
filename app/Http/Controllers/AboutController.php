@@ -11,8 +11,8 @@ class AboutController extends Controller
 		Session::put('aktif',4);
 
 		$hola = [
-			'title'=>'Pengenalan About',
-			'message'=>'Halamn pengenalan kelompok 1 , Abdulloh Aqil - Zulfikar rahhman'
+			'title'=>'Pengenalan Home',
+			'message'=>'HomePage'
 		];
 		$data = About::where('id',3)->first();
 		return view('about',$hola,compact('data'));

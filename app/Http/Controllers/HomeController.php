@@ -13,7 +13,7 @@ class HomeController extends Controller
 		Session::put('aktif',1);
 		$hola = [
 			'title'=>'Pengenalan Home',
-			'message'=>'Halamn pengenala kelompok 1 , Abdulloh Aqil - Zulfikar rahhman'
+			'message'=>'HomePage'
 		];
 		
 		$blog = Blog::limit(4)->get();
