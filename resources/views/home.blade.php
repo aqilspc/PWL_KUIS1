@@ -86,7 +86,7 @@
                                         <div class="media tm-related-post">
                                           <div class="media-left media-middle">
                                             <a >
-                                              <img class="media-object" src="{{url('assets/img/tm-img-240x120-1.jpg')}}" alt="Generic placeholder image">
+                                              <img class="media-object" src="https://objectstorage.ap-sydney-1.oraclecloud.com/p/5Il4d0hojOyP71aKV9Ybg7idpTId4h8YBLUI-1IHpUDcRrCk2wRsz4SYaqHhLP3a/n/sdkn9cttvr6z/b/Annisa/o/img/tm-img-240x120-1.jpg" alt="Generic placeholder image">
                                             </a>
                                           </div>
                                           <div class="media-body">
@@ -97,7 +97,7 @@
                                         <div class="media tm-related-post">
                                           <div class="media-left media-middle">
                                             <a >
-                                              <img class="media-object" src="{{url('assets/img/tm-img-240x120-2.jpg')}}" alt="Generic placeholder image">
+                                              <img class="media-object" src="https://objectstorage.ap-sydney-1.oraclecloud.com/p/5Il4d0hojOyP71aKV9Ybg7idpTId4h8YBLUI-1IHpUDcRrCk2wRsz4SYaqHhLP3a/n/sdkn9cttvr6z/b/Annisa/o/img/tm-img-240x120-2.jpg" alt="Generic placeholder image">
                                             </a>
                                           </div>
                                           <div class="media-body">
@@ -108,7 +108,7 @@
                                         <div class="media tm-related-post">
                                           <div class="media-left media-middle">
                                             <a >
-                                              <img class="media-object" src="{{url('assets/img/tm-img-240x120-3.jpg')}}" alt="Generic placeholder image">
+                                              <img class="media-object" src="https://objectstorage.ap-sydney-1.oraclecloud.com/p/5Il4d0hojOyP71aKV9Ybg7idpTId4h8YBLUI-1IHpUDcRrCk2wRsz4SYaqHhLP3a/n/sdkn9cttvr6z/b/Annisa/o/img/tm-img-240x120-3.jpg" alt="Generic placeholder image">
                                             </a>
                                           </div>
                                           <div class="media-body">
