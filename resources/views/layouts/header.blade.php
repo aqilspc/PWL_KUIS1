@@ -8,8 +8,8 @@
     <title>Classic - Responsive Bootstrap 4.0 Template</title>
    <!-- Google web font "Open Sans" -->
      <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400">  <!-- Google web font "Open Sans" -->
-    <link rel="stylesheet" href="{{url('assets/css/bootstrap.min.css')}}">                                      <!-- Bootstrap style -->
-    <link rel="stylesheet" href="{{url('assets/css/templatemo-style.css')}}">                                  <!-- Templatemo style -->
+    <link rel="stylesheet" href="https://objectstorage.ap-sydney-1.oraclecloud.com/p/5Il4d0hojOyP71aKV9Ybg7idpTId4h8YBLUI-1IHpUDcRrCk2wRsz4SYaqHhLP3a/n/sdkn9cttvr6z/b/Annisa/o/css/bootstrap.min.css">                                      <!-- Bootstrap style -->
+    <link rel="stylesheet" href="https://objectstorage.ap-sydney-1.oraclecloud.com/p/5Il4d0hojOyP71aKV9Ybg7idpTId4h8YBLUI-1IHpUDcRrCk2wRsz4SYaqHhLP3a/n/sdkn9cttvr6z/b/Annisa/o/css/templatemo-style.css">                                  <!-- Templatemo style -->
 </head>
 
     <body>

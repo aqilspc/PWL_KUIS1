@@ -17,7 +17,7 @@
                     @foreach($blog as $b)
                     <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3 col-xl-3">
                         <div class="tm-content-box">
-                            <img src="{{$b->thumbnail_image}}" alt="Image" class="tm-margin-b-20 img-fluid">
+                            <img src="https://objectstorage.ap-sydney-1.oraclecloud.com/p/5Il4d0hojOyP71aKV9Ybg7idpTId4h8YBLUI-1IHpUDcRrCk2wRsz4SYaqHhLP3a/n/sdkn9cttvr6z/b/Annisa/o/img/tm-img-660x330-1.jpg" alt="Image" class="tm-margin-b-20 img-fluid">
                             <h4 class="tm-margin-b-20 tm-gold-text">{{$b->judul}}</h4>
                             <p class="tm-margin-b-20">{{$b->isi}}</p>
                             <a  class="tm-btn text-uppercase">Detail</a>    
